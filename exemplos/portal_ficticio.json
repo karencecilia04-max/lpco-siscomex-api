@@ -1,0 +1,85 @@
+{
+  "consulta": [
+    {"numero": "I2600000101", "situacao": "DEFERIDO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-01-12", "dataInicioVigencia": "2026-01-20", "dataFimVigencia": "2027-01-20", "dueVinculada": ""},
+    {"numero": "I2600000102", "situacao": "DEFERIDO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-01-28", "dataInicioVigencia": "2026-02-03", "dataFimVigencia": "2027-02-03", "dueVinculada": "26BR0000000011"},
+    {"numero": "I2600000103", "situacao": "EM ANALISE", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-02-15", "dataInicioVigencia": "", "dataFimVigencia": "", "dueVinculada": ""},
+    {"numero": "I2600000104", "situacao": "DEFERIDO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-03-02", "dataInicioVigencia": "2026-03-09", "dataFimVigencia": "2027-03-09", "dueVinculada": ""},
+    {"numero": "I2600000105", "situacao": "INDEFERIDO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-03-19", "dataInicioVigencia": "", "dataFimVigencia": "", "dueVinculada": ""},
+    {"numero": "I2600000106", "situacao": "DEFERIDO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-04-07", "dataInicioVigencia": "2026-04-14", "dataFimVigencia": "2027-04-14", "dueVinculada": "26BR0000000027"},
+    {"numero": "I2600000107", "situacao": "DEFERIDO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-05-11", "dataInicioVigencia": "2026-05-18", "dataFimVigencia": "2027-05-18", "dueVinculada": ""},
+    {"numero": "I2600000108", "situacao": "CANCELADO", "codigoModelo": "M00123", "nome": "Licença de importação de pneus", "dataRegistro": "2026-06-03", "dataInicioVigencia": "", "dataFimVigencia": "", "dueVinculada": ""}
+  ],
+  "detalhes": {
+    "I2600000101": {"orgao": "INMETRO", "situacao": {"codigo": "DEFERIDO", "descricao": "Deferido"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40112090", "produto": {"codigo": 101, "versao": "2", "cnpjRaiz": "12345678"}},
+      {"numeroItem": 2, "ncm": "40112090", "produto": {"codigo": 102, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]},
+    "I2600000102": {"orgao": "INMETRO", "situacao": {"codigo": "DEFERIDO", "descricao": "Deferido"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40111000", "produto": {"codigo": 201, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]},
+    "I2600000103": {"orgao": "INMETRO", "situacao": {"codigo": "EM_ANALISE", "descricao": "Em análise"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40111000", "produto": {"codigo": 202, "versao": "1", "cnpjRaiz": "12345678"}},
+      {"numeroItem": 2, "ncm": "40119090", "produto": {"codigo": 301, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]},
+    "I2600000104": {"orgao": "INMETRO", "situacao": {"codigo": "DEFERIDO", "descricao": "Deferido"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40112090", "produto": {"codigo": 101, "versao": "1", "cnpjRaiz": "12345678"}},
+      {"numeroItem": 2, "ncm": "40112090", "produto": {"codigo": 103, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]},
+    "I2600000105": {"orgao": "INMETRO", "situacao": {"codigo": "INDEFERIDO", "descricao": "Indeferido"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40111000", "produto": {"codigo": 999, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]},
+    "I2600000106": {"orgao": "INMETRO", "situacao": {"codigo": "DEFERIDO", "descricao": "Deferido"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40111000", "produto": {"codigo": 201, "versao": "1", "cnpjRaiz": "12345678"}},
+      {"numeroItem": 2, "ncm": "40111000", "produto": {"codigo": 203, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]},
+    "I2600000107": {"orgao": "INMETRO", "situacao": {"codigo": "DEFERIDO", "descricao": "Deferido"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40112090"}
+    ]},
+    "I2600000108": {"orgao": "INMETRO", "situacao": {"codigo": "CANCELADO", "descricao": "Cancelado"}, "listaNcm": [
+      {"numeroItem": 1, "ncm": "40112090", "produto": {"codigo": 102, "versao": "1", "cnpjRaiz": "12345678"}}
+    ]}
+  },
+  "produtos": [
+    {"codigo": 101, "versao": "2", "situacao": "ATIVADO", "ncm": "40112090",
+     "denominacao": "PNEU NOVO RADIAL 295/80R22.5 154/149M 18PR",
+     "descricao": "PNEU NOVO DE BORRACHA, RADIAL, PARA CAMINHAO, MARCA: MARCAUM, MODELO: MD200, MEDIDA 295/80R22.5 154/149M 18PR, SEM CAMARA, REGISTRO INMETRO 001234/2025, CERTIFICADO: OCP-0042/25, FAMILIA INMETRO: 1A2B3C",
+     "codigosInterno": ["PN-29580-MD200"]},
+    {"codigo": 102, "versao": "1", "situacao": "ATIVADO", "ncm": "40112090",
+     "denominacao": "PNEU 275/80 R 22,5 149/146L 16PR",
+     "descricao": "PNEU NOVO RADIAL PARA ONIBUS E CAMINHAO, MARCA MARCADOIS, MODELO TR-PRO 500 / 100200, 275/80 R 22,5 149/146L 16PR TL",
+     "codigosInterno": ["PN-27580-TP500"]},
+    {"codigo": 103, "versao": "1", "situacao": "ATIVADO", "ncm": "40112090",
+     "denominacao": "PNEU 12.00R24 160/157K 20PR MARCATRES TX9",
+     "descricao": "PNEU NOVO RADIAL 12.00R24 160/157K 20PR",
+     "codigosInterno": []},
+    {"codigo": 201, "versao": "1", "situacao": "ATIVADO", "ncm": "40111000",
+     "denominacao": "PNEU 205/55R16 91V",
+     "descricao": "PNEU NOVO PARA AUTOMOVEL, MARCA: MARCATRES, MODELO: EV ECO XL, MEDIDA 205/55R16 91V, REGISTRO 004567/2025",
+     "codigosInterno": ["PN-20555-EVECO"]},
+    {"codigo": 202, "versao": "1", "situacao": "ATIVADO", "ncm": "40111000",
+     "denominacao": "PNEU LT225/75R16 115/112S 10PR",
+     "descricao": "PNEU NOVO PARA CAMIONETA, MARCA: MARCAUM, MODELO: MD AT, LT225/75R16 115/112S 10PR",
+     "codigosInterno": ["PN-22575-MDAT"]},
+    {"codigo": 203, "versao": "3", "situacao": "ATIVADO", "ncm": "40111000",
+     "denominacao": "PNEU 175/70R13 82T",
+     "descricao": "PNEU NOVO RADIAL, MARCA: MARCADOIS, MODELO: URB 2, 175/70R13 82T",
+     "codigosInterno": ["PN-17570-URB2"]},
+    {"codigo": 301, "versao": "1", "situacao": "ATIVADO", "ncm": "40119090",
+     "denominacao": "PNEU AGRICOLA 18.4-30 14PR",
+     "descricao": "PNEU NOVO DIAGONAL PARA TRATOR, MARCA: MARCATRES, MODELO: AGRO R1, 18.4-30 14PR TT",
+     "codigosInterno": []}
+  ],
+  "vinculos": [
+    {"codigoProduto": 101, "codigoOperadorEstrangeiro": "OP0001", "codigoPais": "CN"},
+    {"codigoProduto": 102, "codigoOperadorEstrangeiro": "OP0002", "codigoPais": "IN"},
+    {"codigoProduto": 103, "codigoOperadorEstrangeiro": "OP0001", "codigoPais": "CN"},
+    {"codigoProduto": 201, "codigoOperadorEstrangeiro": "OP0003", "codigoPais": "VN"},
+    {"codigoProduto": 202, "codigoOperadorEstrangeiro": "OP0001", "codigoPais": "CN"},
+    {"codigoProduto": 202, "codigoOperadorEstrangeiro": "OP0003", "codigoPais": "VN"}
+  ],
+  "operadores": [
+    {"codigo": "OP0001", "codigoPais": "CN", "nome": "EXEMPLO TYRE MANUFACTURING CO., LTD.", "tin": "CN000000000001"},
+    {"codigo": "OP0002", "codigoPais": "IN", "nome": "EXEMPLO RUBBER INDUSTRIES PVT LTD", "tin": "IN000000000002"},
+    {"codigo": "OP0003", "codigoPais": "VN", "nome": "EXEMPLO VIETNAM TIRE JSC", "tin": "VN000000000003"}
+  ]
+}

@@ -1,0 +1,16 @@
+# Credenciais, cache e resultados nunca entram no repositório
+config_lpco.json
+cache_detalhes_lpco.json
+*.pfx
+*.pem
+*.xlsx
+!google_sheets/previa/Robo_LPCO_previa.xlsx
+google_sheets/previa/saida/
+*.zip
+saida_demo/
+exportacoes_catalogo/
+
+__pycache__/
+.pytest_cache/
+.venv/
+venv/

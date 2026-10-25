@@ -1,0 +1,19 @@
+{
+  "ambiente": "producao",
+  "cnpj": "00.000.000/0001-00",
+  "perfil": "IMPEXP",
+  "autenticacao": {
+    "tipo": "chave_acesso",
+    "client_id": "COLE_AQUI_O_CLIENT_ID",
+    "client_secret": "COLE_AQUI_O_CLIENT_SECRET",
+    "arquivo_pfx": "C:\\caminho\\certificado.pfx",
+    "senha_pfx": ""
+  },
+  "data_inicial": "2026-01-01",
+  "data_final": "",
+  "dias_por_janela": 30,
+  "situacao": "",
+  "ncms": ["4011.10.00", "4011.20.90"],
+  "pausa_entre_chamadas_seg": 1.5,
+  "arquivo_saida": "LPCOs_Portal_Unico.xlsx"
+}
